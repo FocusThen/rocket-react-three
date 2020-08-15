@@ -1,0 +1,19 @@
+html,
+body,
+.bg,
+canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  position: absolute;
+  background: radial-gradient(
+    at 50% 100%,
+    #873740 10%,
+    #272730 50%,
+    #171720 80%,
+    #070710 100%
+  );
+}
